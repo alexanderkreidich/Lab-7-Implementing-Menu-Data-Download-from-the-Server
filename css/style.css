@@ -1,0 +1,169 @@
+/* СБРОС СТАНДАРТНЫХ ОТСТУПОВ И BOX-SIZING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ОСНОВНЫЕ СТИЛИ BODY */
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ШАПКА САЙТА */
+header {
+  background-color: #fff;
+  padding: 20px 40px;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* НАВИГАЦИЯ */
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff6b6b;
+}
+
+/* ОСНОВНОЙ КОНТЕНТ */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* СЕКЦИИ */
+section {
+  margin-bottom: 60px;
+}
+
+/* ЗАГОЛОВКИ H2 */
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+/* СЕКЦИЯ "О НАС" */
+#about p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.8;
+  max-width: 800px;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* СЕКЦИЯ ПРЕИМУЩЕСТВА */
+#advantages ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+#advantages li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+/* ТАБЛИЦА */
+table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  background-color: #f8f8f8;
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+
+/* Первый столбец (номер) */
+table td:first-child,
+table th:first-child {
+  text-align: center;
+  width: 50px;
+}
+
+/* Столбец с количеством заказов */
+table td:nth-child(3),
+table th:nth-child(3) {
+  text-align: center;
+}
+
+/* Столбец с ценой */
+table td:nth-child(4),
+table th:nth-child(4) {
+  text-align: right;
+}
+
+/* Чередующиеся строки */
+table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* ФУТЕР */
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer p {
+  font-size: 16px;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ff6b6b;
+}
